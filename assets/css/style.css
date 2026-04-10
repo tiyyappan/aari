@@ -1,0 +1,178 @@
+body {
+  font-family: Arial;
+  margin: 0;
+}
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 40px;
+  background: #f5f5f5;
+}
+
+/* left side */
+.left {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* right side */
+.right {
+  display: flex;
+  gap: 20px;   /* space between phone & mail */
+  font-size: 14px;
+  color:#6B07AF;
+  justify-content:space-around;
+}
+h1{
+    margin: 10px 30px;
+}
+
+
+header {
+  padding: 20px;
+}
+
+nav {
+  background:#6B07AF;
+  padding: 40px 30px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+nav button {
+   padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 20px;
+  border: none;
+  cursor:pointer;
+}
+nav button a{
+  color:#6B07AF
+}
+.gallery {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.gallery img {
+  width: 200px;
+  border-radius: 10px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 12px;
+  transition: 0.3s;
+}
+.gallery img:hover {
+ transform: scale(1.05);
+}
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px;
+}
+
+/* LEFT TEXT */
+.about-text {
+  width: 50%;
+}
+
+.about-text h2 {
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+
+.about-text p {
+  color: #555;
+  line-height: 1.6;
+  font-weight:bold;
+  
+  
+}
+
+/* RIGHT IMAGES */
+.about-images {
+  position: relative;
+  width: 40%;
+}
+
+/* first image */
+.img1 {
+  width: 200px;
+  border-radius: 15px;
+  border: 3px solid purple;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* second image (overlap) */
+.img2 {
+  width: 200px;
+  border-radius: 15px;
+  border: 3px solid purple;
+  position: relative;
+  top: 80px;
+  left: 120px;
+}
+.flex-img{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px;
+  
+}
+.images{
+  position: relative;
+  width: 50%;
+}
+.img3{
+  width: 200px;
+  border-radius: 15px;
+  border: 3px solid purple;
+  position:absolute;
+  top:0;
+  left:0;
+}
+.img4{
+  width: 200px;
+  border-radius: 15px;
+  border: 3px solid purple;
+  position:absolute;
+  top: 80px;
+  left: 120px;
+}
+.welcome {
+  
+  flex: 1;
+  margin-top: 100PX;
+  font-weight: bold;
+  gap: 25px;
+  
+}
+.welcome h2{
+   font-size: 28px;
+  margin-bottom: 15px;
+  
+}
+.welcome button{
+   border-radius: 25px;
+   font-weight: bold;
+   color: #6B07AF;
+   padding: 15px 30px;
+   border: none;
+   font-size: 20px;
+}
